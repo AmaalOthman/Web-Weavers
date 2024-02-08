@@ -11,6 +11,18 @@ class ServicesScreen extends StatelessWidget {
           child: Text('Services',
             style: TextStyle(
                 fontSize: 30.sp, color: Theme.of(context).primaryColor),),
+        ),
+        Row(
+          children: [
+            Column(
+              children: [
+                Text('aaaaaaaaaaa'),
+                Container(
+                  width: 20.w,
+                    child: Text('mmmmmmmmmmmmmmm'))
+              ],
+            )
+          ],
         )
       ],
     );
