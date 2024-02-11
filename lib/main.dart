@@ -1,10 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:projectwebsite/pages/basic/basic_screen.dart';
+import 'package:projectwebsite/pages/how_it_works/how_it_works_provider.dart';
 import 'package:projectwebsite/theme/my_theme.dart';
+import 'package:provider/provider.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(MultiProvider(providers: [
+    ChangeNotifierProvider(
+      create: (context) => HomeWorksProvider(),
+    )
+  ], child: const MyApp()));
 }
 
 class MyApp extends StatelessWidget {

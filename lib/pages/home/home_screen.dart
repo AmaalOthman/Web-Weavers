@@ -1,5 +1,7 @@
+import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
-import 'package:projectwebsite/theme/my_theme.dart';
+import 'package:responsive_sizer/responsive_sizer.dart';
+
 class HomeScreen extends StatelessWidget {
 
 
@@ -9,12 +11,27 @@ class HomeScreen extends StatelessWidget {
       children: [
         Column(
           children: [
-            Container(
-              child: Text('Home Screen' ,
-              style: Theme.of(context).textTheme.displayLarge
+            FadeInLeftBig(
+              child: Container(
+                child: Text('Home Screen',
+                    style: Theme.of(context).textTheme.displayLarge),
               ),
             ),
-            Image.asset('assets/images/web-blue.gif',width: 200 , height: 300,),
+            SizedBox(
+              height: 5.h,
+            ),
+            Stack(alignment: Alignment.center, children: [
+              Image.asset(
+                'assets/images/web-blue.gif',
+                width: 20.w,
+                height: 30.h,
+              ),
+              Image.asset(
+                'assets/images/WhatsApp Image 2024-02-09 at 15.52.51_39985ebb.jpg',
+                width: 7.w,
+                height: 7.h,
+              )
+            ]),
           ],
         ),
 
