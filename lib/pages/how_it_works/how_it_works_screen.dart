@@ -122,7 +122,7 @@ class _HowItWorksScreenState extends State<HowItWorksScreen> {
                                 ),
                               ),
                               Container(
-                                width: 18.w,
+                                width: 17.w,
                                 child: AnimatedDefaultTextStyle(
                                   style: Theme.of(context)
                                       .textTheme
@@ -139,8 +139,8 @@ class _HowItWorksScreenState extends State<HowItWorksScreen> {
                             ],
                           ),
                           AnimatedContainer(
-                            height: 80,
-                            width: 80,
+                            height: 7.h,
+                            width: 7.w,
                             decoration: BoxDecoration(
                                 color: prov.descoveryCallColorBackground,
                                 shape: BoxShape.circle,
@@ -148,12 +148,15 @@ class _HowItWorksScreenState extends State<HowItWorksScreen> {
                                   color: prov.descoveryCallColor,
                                 )),
                             duration: Duration(seconds: 2),
-                            child: ImageIcon(
-                              AssetImage('assets/images/agreement.png'
-                                  //'assets/images/phone-call.png',
-                                  ),
-                              color: prov.descoveryCallColorIcon,
-                              size: 150,
+                            child: Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: ImageIcon(
+                                AssetImage(
+                                  'assets/images/phone-call.png',
+                                ),
+                                color: prov.descoveryCallColorIcon,
+                                size: 1,
+                              ),
                             ),
                           ),
                         ],
@@ -166,8 +169,8 @@ class _HowItWorksScreenState extends State<HowItWorksScreen> {
                       child: Row(
                         children: [
                           AnimatedContainer(
-                            height: 80,
-                            width: 80,
+                            height: 7.h,
+                            width: 7.w,
                             decoration: BoxDecoration(
                                 color: prov.agreementColorBackground,
                                 shape: BoxShape.circle,
@@ -175,12 +178,14 @@ class _HowItWorksScreenState extends State<HowItWorksScreen> {
                                   color: prov.agreementColor,
                                 )),
                             duration: Duration(seconds: 2),
-                            child: ImageIcon(
-                              AssetImage(
-                                'assets/images/agreement.png',
+                            child: Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: ImageIcon(
+                                AssetImage(
+                                  'assets/images/agreement.png',
+                                ),
+                                color: prov.agreementColorIcon,
                               ),
-                              color: prov.agreementColorIcon,
-                              size: 150,
                             ),
                           ),
                           Column(
@@ -196,7 +201,7 @@ class _HowItWorksScreenState extends State<HowItWorksScreen> {
                                 ),
                               ),
                               Container(
-                                width: 18.w,
+                                width: 17.w,
                                 child: AnimatedDefaultTextStyle(
                                   style: Theme.of(context)
                                       .textTheme
@@ -217,13 +222,13 @@ class _HowItWorksScreenState extends State<HowItWorksScreen> {
                     ),
                     //3  Design & Development
                     Positioned(
-                      right: -15.w,
+                      right: -11.w,
                       top: 20.h,
                       child: Row(
                         children: [
                           AnimatedContainer(
-                            height: 80,
-                            width: 80,
+                            height: 7.h,
+                            width: 7.w,
                             decoration: BoxDecoration(
                                 color: prov.designandDevelopmentColorBackground,
                                 shape: BoxShape.circle,
@@ -231,12 +236,15 @@ class _HowItWorksScreenState extends State<HowItWorksScreen> {
                                   color: prov.designandDevelopmentColor,
                                 )),
                             duration: Duration(seconds: 2),
-                            child: ImageIcon(
-                              AssetImage('assets/images/agreement.png'
-                                  //'assets/images/design.png',
-                                  ),
-                              color: prov.designandDevelopmentColorIcon,
-                              size: 150,
+                            child: Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: ImageIcon(
+                                AssetImage(
+                                  'assets/images/design.png',
+                                ),
+                                color: prov.designandDevelopmentColorIcon,
+                                size: 150,
+                              ),
                             ),
                           ),
                           Column(
@@ -253,7 +261,7 @@ class _HowItWorksScreenState extends State<HowItWorksScreen> {
                                 ),
                               ),
                               Container(
-                                width: 18.w,
+                                width: 17.w,
                                 child: AnimatedDefaultTextStyle(
                                   style: Theme.of(context)
                                       .textTheme
@@ -274,7 +282,7 @@ class _HowItWorksScreenState extends State<HowItWorksScreen> {
                     ),
                     //4  Research and Setup
                     Positioned(
-                      left: -11.w,
+                      left: -8.w,
                       top: 20.h,
                       child: Row(
                         children: [
@@ -291,7 +299,7 @@ class _HowItWorksScreenState extends State<HowItWorksScreen> {
                                 ),
                               ),
                               Container(
-                                width: 18.w,
+                                width: 17.w,
                                 child: AnimatedDefaultTextStyle(
                                   style: Theme.of(context)
                                       .textTheme
@@ -308,8 +316,8 @@ class _HowItWorksScreenState extends State<HowItWorksScreen> {
                             ],
                           ),
                           AnimatedContainer(
-                            height: 80,
-                            width: 80,
+                            height: 7.h,
+                            width: 7.w,
                             decoration: BoxDecoration(
                                 color: prov.researchandSetupColorBackground,
                                 shape: BoxShape.circle,
@@ -317,12 +325,14 @@ class _HowItWorksScreenState extends State<HowItWorksScreen> {
                                   color: prov.researchandSetupColor,
                                 )),
                             duration: Duration(seconds: 2),
-                            child: ImageIcon(
-                              AssetImage('assets/images/agreement.png'
-                                  //'assets/images/research.png',
-                                  ),
-                              color: prov.researchandSetupColorIcon,
-                              size: 150,
+                            child: Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: ImageIcon(
+                                AssetImage(
+                                  'assets/images/research.png',
+                                ),
+                                color: prov.researchandSetupColorIcon,
+                              ),
                             ),
                           ),
                         ],
@@ -330,7 +340,7 @@ class _HowItWorksScreenState extends State<HowItWorksScreen> {
                     ),
                     //5  Quality Assurance
                     Positioned(
-                      left: -6.w,
+                      left: -3.w,
                       top: 40.h,
                       child: Row(
                         children: [
@@ -347,7 +357,7 @@ class _HowItWorksScreenState extends State<HowItWorksScreen> {
                                 ),
                               ),
                               Container(
-                                width: 18.w,
+                                width: 17.w,
                                 child: AnimatedDefaultTextStyle(
                                   style: Theme.of(context)
                                       .textTheme
@@ -364,8 +374,8 @@ class _HowItWorksScreenState extends State<HowItWorksScreen> {
                             ],
                           ),
                           AnimatedContainer(
-                            height: 80,
-                            width: 80,
+                            height: 7.h,
+                            width: 7.w,
                             decoration: BoxDecoration(
                                 color: prov.qualityAssuranceColorBackground,
                                 shape: BoxShape.circle,
@@ -373,12 +383,15 @@ class _HowItWorksScreenState extends State<HowItWorksScreen> {
                                   color: prov.qualityAssuranceColor,
                                 )),
                             duration: Duration(seconds: 2),
-                            child: ImageIcon(
-                              AssetImage('assets/images/agreement.png'
-                                  //'assets/images/quality.png',
-                                  ),
-                              color: prov.qualityAssuranceColorIcon,
-                              size: 150,
+                            child: Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: ImageIcon(
+                                AssetImage(
+                                  'assets/images/quality.png',
+                                ),
+                                color: prov.qualityAssuranceColorIcon,
+                                size: 150,
+                              ),
                             ),
                           ),
                         ],
@@ -386,13 +399,13 @@ class _HowItWorksScreenState extends State<HowItWorksScreen> {
                     ),
                     // 6  Finalization & Deployment
                     Positioned(
-                      right: -15.w,
+                      right: -10.w,
                       top: 40.h,
                       child: Row(
                         children: [
                           AnimatedContainer(
-                            height: 80,
-                            width: 80,
+                            height: 7.h,
+                            width: 7.w,
                             decoration: BoxDecoration(
                                 color: prov
                                     .finalizationandDeploymentColorBackground,
@@ -401,12 +414,14 @@ class _HowItWorksScreenState extends State<HowItWorksScreen> {
                                   color: prov.finalizationandDeploymentColor,
                                 )),
                             duration: Duration(seconds: 2),
-                            child: ImageIcon(
-                              AssetImage(
-                                'assets/images/agreement.png',
+                            child: Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: ImageIcon(
+                                AssetImage(
+                                  'assets/images/finalization.png',
+                                ),
+                                color: prov.finalizationandDeploymentColorIcon,
                               ),
-                              color: prov.finalizationandDeploymentColorIcon,
-                              size: 150,
                             ),
                           ),
                           Column(
@@ -424,7 +439,7 @@ class _HowItWorksScreenState extends State<HowItWorksScreen> {
                                 ),
                               ),
                               Container(
-                                width: 18.w,
+                                width: 17.w,
                                 child: AnimatedDefaultTextStyle(
                                   style: Theme.of(context)
                                       .textTheme
