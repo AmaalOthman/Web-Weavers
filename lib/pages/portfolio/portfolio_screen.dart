@@ -19,11 +19,16 @@ class PortfolioScreen extends StatelessWidget {
           SizedBox(
             height: 5.h,
           ),
-          FadeInUpBig(
-            child: Row(
-              children: [
-                Expanded(
-                  child: Center(
+          SizedBox(
+            height: 70.h,
+            width: 70.w,
+            child: FadeInUpBig(
+              child: GridView.builder(
+                gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                    crossAxisCount: 3),
+                itemCount: 9,
+                itemBuilder: (BuildContext context, int index) {
+                  return Center(
                     child: Column(
                       children: [
                         InkWell(
@@ -32,8 +37,8 @@ class PortfolioScreen extends StatelessWidget {
                                 'https://pub.dev/packages/url_launcher');
                           },
                           child: Container(
-                              height: 30.h,
-                              width: 30.w,
+                              height: 15.h,
+                              width: 15.w,
                               child: Image.asset(
                                 'assets/images/linkedin.png',
                                 fit: BoxFit.cover,
@@ -44,8 +49,8 @@ class PortfolioScreen extends StatelessWidget {
                           style: Theme.of(context).textTheme.displayMedium,
                         ),
                         Container(
-                          height: 25.h,
-                          width: 25.w,
+                          height: 15.h,
+                          width: 15.w,
                           child: Text(
                             'Text 1Text 1Text 1Text 1Text 1Text 1Text 1Text',
                             style: Theme.of(context).textTheme.displaySmall,
@@ -53,180 +58,9 @@ class PortfolioScreen extends StatelessWidget {
                         ),
                       ],
                     ),
-                  ),
-                ),
-                Expanded(
-                  child: Center(
-                    child: Column(
-                      children: [
-                        InkWell(
-                          onTap: () {
-                            launchUrlString(
-                                'https://pub.dev/packages/url_launcher');
-                          },
-                          child: Container(
-                              height: 30.h,
-                              width: 30.w,
-                              child: Image.asset(
-                                'assets/images/linkedin.png',
-                                fit: BoxFit.cover,
-                              )),
-                        ),
-                        Text(
-                          'Text 1',
-                          style: Theme.of(context).textTheme.displayMedium,
-                        ),
-                        Container(
-                          height: 25.h,
-                          width: 25.w,
-                          child: Text(
-                            'Text 1Text 1Text 1Text 1Text 1Text 1Text 1Text',
-                            style: Theme.of(context).textTheme.displaySmall,
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                ),
-                Expanded(
-                  child: Center(
-                    child: Column(
-                      children: [
-                        InkWell(
-                          onTap: () {
-                            launchUrlString(
-                                'https://pub.dev/packages/url_launcher');
-                          },
-                          child: Container(
-                              height: 30.h,
-                              width: 30.w,
-                              child: Image.asset(
-                                'assets/images/linkedin.png',
-                                fit: BoxFit.cover,
-                              )),
-                        ),
-                        Text(
-                          'Text 1',
-                          style: Theme.of(context).textTheme.displayMedium,
-                        ),
-                        Container(
-                          height: 25.h,
-                          width: 25.w,
-                          child: Text(
-                            'Text 1Text 1Text 1Text 1Text 1Text 1Text 1Text',
-                            style: Theme.of(context).textTheme.displaySmall,
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                ),
-              ],
-            ),
-          ),
-          FadeInUpBig(
-            child: Row(
-              children: [
-                Expanded(
-                  child: Center(
-                    child: Column(
-                      children: [
-                        InkWell(
-                          onTap: () {
-                            launchUrlString(
-                                'https://pub.dev/packages/url_launcher');
-                          },
-                          child: Container(
-                              height: 30.h,
-                              width: 30.w,
-                              child: Image.asset(
-                                'assets/images/linkedin.png',
-                                fit: BoxFit.cover,
-                              )),
-                        ),
-                        Text(
-                          'Text 1',
-                          style: Theme.of(context).textTheme.displayMedium,
-                        ),
-                        Container(
-                          height: 25.h,
-                          width: 25.w,
-                          child: Text(
-                            'Text 1Text 1Text 1Text 1Text 1Text 1Text 1Text',
-                            style: Theme.of(context).textTheme.displaySmall,
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                ),
-                Expanded(
-                  child: Center(
-                    child: Column(
-                      children: [
-                        InkWell(
-                          onTap: () {
-                            launchUrlString(
-                                'https://pub.dev/packages/url_launcher');
-                          },
-                          child: Container(
-                              height: 30.h,
-                              width: 30.w,
-                              child: Image.asset(
-                                'assets/images/linkedin.png',
-                                fit: BoxFit.cover,
-                              )),
-                        ),
-                        Text(
-                          'Text 1',
-                          style: Theme.of(context).textTheme.displayMedium,
-                        ),
-                        Container(
-                          height: 25.h,
-                          width: 25.w,
-                          child: Text(
-                            'Text 1Text 1Text 1Text 1Text 1Text 1Text 1Text',
-                            style: Theme.of(context).textTheme.displaySmall,
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                ),
-                Expanded(
-                  child: Center(
-                    child: Column(
-                      children: [
-                        InkWell(
-                          onTap: () {
-                            launchUrlString(
-                                'https://pub.dev/packages/url_launcher');
-                          },
-                          child: Container(
-                              height: 30.h,
-                              width: 30.w,
-                              child: Image.asset(
-                                'assets/images/linkedin.png',
-                                fit: BoxFit.cover,
-                              )),
-                        ),
-                        Text(
-                          'Text 1',
-                          style: Theme.of(context).textTheme.displayMedium,
-                        ),
-                        Container(
-                          height: 25.h,
-                          width: 25.w,
-                          child: Text(
-                            'Text 1Text 1Text 1Text 1Text 1Text 1Text 1Text',
-                            style: Theme.of(context).textTheme.displaySmall,
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                ),
-              ],
+                  );
+                },
+              ),
             ),
           ),
         ],
