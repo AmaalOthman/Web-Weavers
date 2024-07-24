@@ -72,14 +72,14 @@ class _ServicesScreenState extends State<ServicesScreen> {
                                   //mouseCursor: MouseCursor.uncontrolled,
 
                                   child: Text(
-                                'Amaal',
+                                'Personalized Learning Paths',
                                 style:
                                     Theme.of(context).textTheme.displayMedium,
                               )),
                               Container(
                                 width: 16.w,
                                 child: Text(
-                                  'Othman It 180 Website Information TechnologyOthman It 180 Website Information Technology',
+                                  'Get customized courses tailored to your goals and skill level.',
                                   style:
                                       Theme.of(context).textTheme.displaySmall,
                                 ),
@@ -157,7 +157,7 @@ class _ServicesScreenState extends State<ServicesScreen> {
                                     // });
                                   },
                                   child: Text(
-                                    'Amaal',
+                                    'Expert-Led Courses',
                                     style: Theme.of(context)
                                         .textTheme
                                         .displayMedium,
@@ -165,7 +165,7 @@ class _ServicesScreenState extends State<ServicesScreen> {
                               Container(
                                 width: 16.w,
                                 child: Text(
-                                  'Othman It 180 Website Information TechnologyOthman It 180 Website Information Technology',
+                                  'Learn from industry experts and gain practical knowledge.',
                                   style:
                                       Theme.of(context).textTheme.displaySmall,
                                 ),
@@ -257,7 +257,7 @@ class _ServicesScreenState extends State<ServicesScreen> {
                                     // });
                                   },
                                   child: Text(
-                                    'Amaal',
+                                    'Interactive Quizzes',
                                     style: Theme.of(context)
                                         .textTheme
                                         .displayMedium,
@@ -265,7 +265,7 @@ class _ServicesScreenState extends State<ServicesScreen> {
                               Container(
                                 width: 16.w,
                                 child: Text(
-                                  'Othman It 180 Website Information TechnologyOthman It 180 Website Information Technology',
+                                  'Test your understanding with engaging quizzes and assessments.',
                                   style:
                                       Theme.of(context).textTheme.displaySmall,
                                 ),
@@ -343,7 +343,7 @@ class _ServicesScreenState extends State<ServicesScreen> {
                                     // });
                                   },
                                   child: Text(
-                                    'Amaal',
+                                    'Community Support',
                                     style: Theme.of(context)
                                         .textTheme
                                         .displayMedium,
@@ -351,7 +351,7 @@ class _ServicesScreenState extends State<ServicesScreen> {
                               Container(
                                 width: 16.w,
                                 child: Text(
-                                  'Othman It 180 Website Information TechnologyOthman It 180 Website Information Technology',
+                                  'Join a supportive community of learners and mentors.',
                                   style:
                                       Theme.of(context).textTheme.displaySmall,
                                 ),
@@ -443,7 +443,7 @@ class _ServicesScreenState extends State<ServicesScreen> {
                                     // });
                                   },
                                   child: Text(
-                                    'Amaal',
+                                    'Progress Tracking',
                                     style: Theme.of(context)
                                         .textTheme
                                         .displayMedium,
@@ -451,7 +451,7 @@ class _ServicesScreenState extends State<ServicesScreen> {
                               Container(
                                 width: 16.w,
                                 child: Text(
-                                  'Othman It 180 Website Information TechnologyOthman It 180 Website Information Technology',
+                                  'Monitor your progress and stay motivated with our tracking tools.',
                                   style:
                                       Theme.of(context).textTheme.displaySmall,
                                 ),

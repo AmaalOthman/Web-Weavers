@@ -272,7 +272,7 @@ class _HowItWorksScreenState extends State<HowItWorksScreen> {
                                               .designandDevelopmentTextDescription4),
                                   duration: Duration(seconds: 3),
                                   child: Text(
-                                    'Othman It 180 Website Information TechnologyOthman It 180 Website Information Technology',
+                                    'Learnify is designed to be easy to use and visually appealing. Our team ensures a smooth and enjoyable experience by constantly improving our site based on your feedback.',
                                   ),
                                 ),
                               ),
@@ -310,7 +310,7 @@ class _HowItWorksScreenState extends State<HowItWorksScreen> {
                                               .researchandSetupTextDescription3),
                                   duration: Duration(seconds: 3),
                                   child: Text(
-                                    'Othman It 180 Website Information TechnologyOthman It 180 Website Information Technology',
+                                    'At Learnify, we begin with thorough research to understand your learning needs. Our setup process is quick and easy, allowing you to start your educational journey without hassle.',
                                   ),
                                 ),
                               ),
@@ -368,7 +368,7 @@ class _HowItWorksScreenState extends State<HowItWorksScreen> {
                                               .qualityAssuranceTextDescription5),
                                   duration: Duration(seconds: 3),
                                   child: Text(
-                                    'Othman It 180 Website Information TechnologyOthman It 180 Website Information Technology',
+                                    'At Learnify, we prioritize quality. Our team rigorously tests every course and feature to ensure you have the best learning experience.',
                                   ),
                                 ),
                               ),
@@ -450,7 +450,7 @@ class _HowItWorksScreenState extends State<HowItWorksScreen> {
                                               .finalizationandDeploymentTextDescription6),
                                   duration: Duration(seconds: 3),
                                   child: Text(
-                                    'Othman It 180 Website Information TechnologyOthman It 180 Website Information Technology',
+                                    'At Learnify, we ensure everything is perfect before going live. Our team carefully finalizes and deploys each feature to provide you with a seamless experience.',
                                   ),
                                 ),
                               ),
