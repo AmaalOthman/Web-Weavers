@@ -24,41 +24,42 @@ class _HowItWorksScreenState extends State<HowItWorksScreen> {
           () {
             prov.descoveryCallColor = Colors.black;
             prov.descoveryCallColorIcon = Colors.black;
-            prov.descoveryCallText = Color(0xff365486);
+            prov.descoveryCallText = Color(0xff6D9886);
             prov.descoveryCallTextDescription1 = Colors.black;
             prov.descoveryCallColorBackground = Colors.white;
+            // ignore: invalid_use_of_protected_member
             prov.notifyListeners();
             Future.delayed(Duration(seconds: 3), () {
               prov.agreementColor = Colors.black;
-              prov.agreementText = Color(0xff365486);
+              prov.agreementText = Color(0xff6D9886);
               prov.agreementTextDescription2 = Colors.black;
               prov.agreementColorBackground = Colors.white;
               prov.agreementColorIcon = Colors.black;
               prov.notifyListeners();
               Future.delayed(Duration(seconds: 3), () {
                 prov.researchandSetupColor = Colors.black;
-                prov.researchandSetupText = Color(0xff365486);
+                prov.researchandSetupText = Color(0xff6D9886);
                 prov.researchandSetupTextDescription3 = Colors.black;
                 prov.researchandSetupColorBackground = Colors.white;
                 prov.researchandSetupColorIcon = Colors.black;
                 prov.notifyListeners();
                 Future.delayed(Duration(seconds: 3), () {
                   prov.designandDevelopmentColor = Colors.black;
-                  prov.designandDevelopmentText = Color(0xff365486);
+                  prov.designandDevelopmentText = Color(0xff6D9886);
                   prov.designandDevelopmentTextDescription4 = Colors.black;
                   prov.designandDevelopmentColorBackground = Colors.white;
                   prov.designandDevelopmentColorIcon = Colors.black;
                   prov.notifyListeners();
                   Future.delayed(Duration(seconds: 3), () {
                     prov.qualityAssuranceColor = Colors.black;
-                    prov.qualityAssuranceText = Color(0xff365486);
+                    prov.qualityAssuranceText = Color(0xff6D9886);
                     prov.qualityAssuranceTextDescription5 = Colors.black;
                     prov.qualityAssuranceColorBackground = Colors.white;
                     prov.qualityAssuranceColorIcon = Colors.black;
                     prov.notifyListeners();
                     Future.delayed(Duration(seconds: 3), () {
                       prov.finalizationandDeploymentColor = Colors.black;
-                      prov.finalizationandDeploymentText = Color(0xff365486);
+                      prov.finalizationandDeploymentText = Color(0xff6D9886);
                       prov.finalizationandDeploymentTextDescription6 =
                           Colors.black;
                       prov.finalizationandDeploymentColorBackground =
@@ -132,7 +133,7 @@ class _HowItWorksScreenState extends State<HowItWorksScreen> {
                                               .descoveryCallTextDescription1),
                                   duration: Duration(seconds: 3),
                                   child: Text(
-                                    'Othman It 180 Website Information TechnologyOthman It 180 Website Information Technology',
+                                    'Want to learn more about how Learnify can help you? Let’s chat! Book a free Discovery Call with us to discuss your goals and see how we can support your learning journey.',
                                   ),
                                 ),
                               ),
@@ -211,7 +212,7 @@ class _HowItWorksScreenState extends State<HowItWorksScreen> {
                                               prov.agreementTextDescription2),
                                   duration: Duration(seconds: 3),
                                   child: Text(
-                                    'Othman It 180 Website Information TechnologyOthman It 180 Website Information Technology',
+                                    'By using Learnify, you agree to follow our rules and guidelines. Please ensure your information is accurate and commit to learning with integrity.',
                                   ),
                                 ),
                               ),

@@ -20,9 +20,10 @@ class BasicScreeen extends StatelessWidget {
           headerSliverBuilder: (BuildContext context, bool innerBoxIsScrolled) {
             return [
               SliverAppBar(
-                title: Text('Web Weavers',
+                backgroundColor: WebsiteColor.anotherColor,
+                title: Text('Learnify',
                     style: TextStyle(
-                        fontSize: 24.sp,
+                        fontSize: 20.sp,
                         fontWeight: FontWeight.bold,
                         fontFamily: GoogleFonts.acme().fontFamily,
                         color: WebsiteColor.primaryColor)),

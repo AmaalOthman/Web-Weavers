@@ -90,7 +90,9 @@ class _AboutUsScreenState extends State<AboutUsScreen> {
               child: Column(
                 children: [
                   Image.asset(
-                    'assets/images/WhatsApp Image 2024-02-09 at 15.52.51_39985ebb.jpg',
+                    //D:\Amal\StudioProjects\web_project\assets\images\images.png
+                    //D:\Amal\StudioProjects\web_project\assets\images\Programming.jpg
+                    'assets/images/images.png',
                     width: 40.w,
                     height: 40.h,
                   ),
